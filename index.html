@@ -1,49 +1,94 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <head>
     <title>
         Tastey Links
     </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@1,600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
 
     <style>
         * {
             background: #E5E5E5;
         }
 
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            box-sizing: border-box;
+            overflow: hidden;
+            
+        }
+
+        @media (min-width: 1000px) {
+          .subline {
+            padding-left: 200px;
+            padding-right: 200px;
+          }
+        }
+
+        @media (max-width: 999px) {
+          .subline {
+            padding-left: 2%;
+            padding-right: 2%;
+          }
+        }
+
         .headline {
-            font-family: Fraunces;
+          font-family: Fraunces;
             font-style: italic;
             font-weight: 600;
             font-size: 50px;
             line-height: 92.52%;
             text-align: center;
             color: #2B2D42;
+            padding-top: 70px;
+        }
+
+        .worksans {
+          font-family: Work Sans, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 29px;
         }
 
         .subline {
-            font-family: Work Sans, sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 25px;
-            line-height: 29px;
             text-align: center;
-            padding-left: 300px;
-            padding-right: 300px;
+            color: #6F6F6F;
+            font-size: 25px;
+        }
 
-color: #6F6F6F;
+        .logo {
+          font-family: Fraunces;
+          font-style: italic;
+          font-weight: 600;
+          font-size: 50px;
+          line-height: 92.52%;
+          text-align: center;
+          color: #2B2D42;
         }
-        .fraun {
-            font-family: 'Fraunces', sans-serif;
+
+        .microcopy {
+          color: #6F6F6F;
+          font-size: 20px;
+          text-align: center;
         }
+
+        a {
+          color: #6F6F6F;
+          text-underline-position: below;
+        }
+
     </style>
 </head>
 <body>
-    <p class="headline logo">Tastey.</p>
-    <h1 class="headline" >Keep all your links together</h1>
-    <p class="subline">Tastey takes all links you've collected and keeps them together. With tags and a powerful search.</p>
+    <div class="container">
+    <p class="logo" style="font-size: 40px;">Tastey.</p>
+    <h1 class="headline" >Keep your links organised, no extra work.</h1>
+    <p class="subline worksans">Tastey saves all the links you've collected on a number of apps and keeps them together. With tags and a powerful search.</p>
     <style type="text/css">
         @import url(https://static.mailerlite.com/assets/plugins/groot/modules/includes/groot_fonts/import.css?version=1626353);
       </style>
@@ -99,4 +144,6 @@ color: #6F6F6F;
       </script>
       <img src="https://track.mailerlite.com/webforms/o/4427761/p1t5o3?v1626602762" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
       <script src="https://static.mailerlite.com/js/w/webforms.min.js?v0c75f831c56857441820dcec3163967c" type="text/javascript"></script>
+    </div>
+    <p class="worksans microcopy">Made by <a href="https://twitter.com/kunaaalllll/">Kunal Mishra</a>.</p>
 </body>
